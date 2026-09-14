@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Was ist ein CAPTCHA?",
+    "options": {
+      "A": "Ein Verfahren zur Verschlüsselung von Benutzerdaten.",
+      "B": "Ein Verfahren zur Unterscheidung von Menschen und automatisierten Systemen.",
+      "C": "Ein Protokoll zur Übertragung von Webseiteninhalten.",
+      "D": "Ein Verfahren zur Speicherung von Benutzerkonten.",
+      "E": "Ein Dienst zur Verwaltung von Datenbanken."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Wofür steht die Abkürzung CAPTCHA?",
+    "options": {
+      "A": "Computer Assisted Public Test for Human Access",
+      "B": "Central Automated Protection Tool for Computer Authentication",
+      "C": "Controlled Access Protocol to Test Human Activity",
+      "D": "Completely Advanced Processing Test for Human Authorization",
+      "E": "Completely Automated Public Turing Test to Tell Computers and Humans Apart"
+    },
+    "correct": "E"
+  },
+  {
+    "question": "Welche Aussage beschreibt den Unterschied zwischen CAPTCHA und reCAPTCHA korrekt?",
+    "options": {
+      "A": "CAPTCHA ist das allgemeine Konzept, reCAPTCHA ist eine konkrete Google-Lösung.",
+      "B": "CAPTCHA funktioniert nur mit Text und reCAPTCHA nur mit Bildern.",
+      "C": "CAPTCHA ist ausschließlich serverseitig und reCAPTCHA ausschließlich clientseitig.",
+      "D": "CAPTCHA wird nur bei Datenbanken und reCAPTCHA nur bei Webseiten eingesetzt.",
+      "E": "CAPTCHA und reCAPTCHA bezeichnen exakt dasselbe allgemeine Verfahren."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Welche Ziele gehören zu den ursprünglichen Einsatzgebieten von CAPTCHAs?",
+    "options": {
+      "A": "Automatisierten Spam erschweren.",
+      "B": "Webseiten vollständig verschlüsseln.",
+      "C": "Massenhafte Account-Erstellung erschweren.",
+      "D": "Missbräuchliche automatisierte Zugriffe begrenzen.",
+      "E": "Datenbanken automatisch vor Datenverlust schützen."
+    },
+    "correct": ["A", "C", "D"]
+  },
+  {
+    "question": "Welche Aussagen treffen auf das ursprüngliche reCAPTCHA zu?",
+    "options": {
+      "A": "Es ersetzte serverseitige Sicherheitsprüfungen vollständig.",
+      "B": "Es funktionierte ausschließlich mit biometrischen Daten.",
+      "C": "Es konnte menschliche Lösungen für Digitalisierungsaufgaben nutzen.",
+      "D": "Es blockierte grundsätzlich jede automatisierte Anfrage.",
+      "E": "Es nutzte unter anderem schwer lesbare Texte als Aufgaben."
+    },
+    "correct": ["C", "E"]
+  },
+  {
+    "question": "Welche Aussage trifft auf reCAPTCHA v2 zu?",
+    "options": {
+      "A": "Es arbeitet grundsätzlich nur mit einem unsichtbaren Score.",
+      "B": "Es ersetzt automatisch jede serverseitige Sicherheitsprüfung.",
+      "C": "Es funktioniert ausschließlich ohne Benutzerinteraktion.",
+      "D": "Es kann sichtbare Prüfungen für den Benutzer verwenden.",
+      "E": "Es speichert den Secret Key dauerhaft im Browser."
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Welche Aussage beschreibt reCAPTCHA v3 korrekt?",
+    "options": {
+      "A": "Es zeigt bei jeder Anfrage zwingend ein Bilderrätsel.",
+      "B": "Es ersetzt die gesamte Authentifizierung einer Anwendung.",
+      "C": "Es funktioniert nur auf statischen Webseiten.",
+      "D": "Es verlangt grundsätzlich eine Texteingabe vom Benutzer.",
+      "E": "Es bewertet Interaktionen im Hintergrund anhand eines Scores."
+    },
+    "correct": "E"
+  },
+  {
+    "question": "Was beschreibt der Score bei reCAPTCHA v3?",
+    "options": {
+      "A": "Die Anzahl erfolgreicher Logins eines Benutzers.",
+      "B": "Die Geschwindigkeit der Internetverbindung.",
+      "C": "Die Anzahl bereits gelöster Bildaufgaben.",
+      "D": "Eine Risikobewertung der jeweiligen Interaktion.",
+      "E": "Die Anzahl gespeicherter Benutzerkonten."
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Welche Aussage über einen hohen reCAPTCHA-v3-Score ist korrekt?",
+    "options": {
+      "A": "Er beweist zweifelsfrei, dass ein Mensch handelt.",
+      "B": "Er bedeutet automatisch, dass eine Bilderaufgabe angezeigt wird.",
+      "C": "Er deutet eher auf eine legitime Interaktion hin.",
+      "D": "Er bedeutet automatisch, dass die Anfrage blockiert wird.",
+      "E": "Er zeigt an, dass der Secret Key öffentlich sichtbar ist."
+    },
+    "correct": "E"
+  },
+  {
+    "question": "Welche Aussagen zum Score von reCAPTCHA v3 sind korrekt?",
+    "options": {
+      "A": "Ein niedriger Wert bedeutet garantiert, dass ein Bot handelt.",
+      "B": "Ein hoher Wert spricht eher für eine legitime Interaktion.",
+      "C": "Der Score ist immer ein eindeutiger Beweis für menschliches Verhalten.",
+      "D": "Ein niedriger Wert deutet auf ein höheres Risiko hin.",
+      "E": "Der Score ersetzt automatisch jede weitere Sicherheitsentscheidung."
+    },
+    "correct": ["B", "D"]
+  },
+  {
+    "question": "Welche Aussagen beschreiben den Score von reCAPTCHA v3 korrekt?",
+    "options": {
+      "A": "Er ist eine Risikoeinschätzung und kein absoluter Beweis.",
+      "B": "Ein Wert von 0,9 garantiert einen menschlichen Benutzer.",
+      "C": "Ein niedrigerer Wert deutet auf ein höheres Risiko hin.",
+      "D": "Ein Score ersetzt jede serverseitige Prüfung.",
+      "E": "Ein hoher Wert deutet eher auf legitime Nutzung hin."
+    },
+    "correct": ["A", "C", "E"]
+  },
+  {
+    "question": "Ist ein reCAPTCHA-Score von 0,9 ein sicherer Beweis dafür, dass ein Mensch handelt?",
+    "options": {
+      "A": "Nein, der Score stellt lediglich eine Risikoeinschätzung dar.",
+      "B": "Ja, ab 0,9 gilt menschliche Nutzung als bewiesen.",
+      "C": "Ja, sofern der Benutzer bereits angemeldet ist.",
+      "D": "Ja, wenn zusätzlich Firebase Hosting verwendet wird.",
+      "E": "Nein, weil Scores ausschließlich für CSS bestimmt sind."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Welche Aussagen gehören zum beschriebenen Ablauf einer reCAPTCHA-Prüfung?",
+    "options": {
+      "A": "Im Browser wird clientseitiger Code ausgeführt.",
+      "B": "Ein zeitlich begrenztes Token kann erzeugt werden.",
+      "C": "Das Token kann an serverseitige Infrastruktur übermittelt werden.",
+      "D": "Das Ergebnis der Prüfung kann für eine Entscheidung verwendet werden.",
+      "E": "Der Browser speichert automatisch den Secret Key des Servers."
+    },
+    "correct": ["A", "B", "C", "D"]
+  },
+  {
+    "question": "Was wird für die anschließende serverseitige Prüfung erzeugt?",
+    "options": {
+      "A": "Eine neue Datenbank.",
+      "B": "Ein zeitlich begrenztes Token.",
+      "C": "Ein neues Benutzerpasswort.",
+      "D": "Eine CSS-Konfiguration.",
+      "E": "Ein dauerhaft gültiger Site Key."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Welche Aussagen über ein reCAPTCHA-Token sind korrekt?",
+    "options": {
+      "A": "Es ist identisch mit einem Secret Key.",
+      "B": "Es ist ein dauerhaft gültiges Benutzerpasswort.",
+      "C": "Es ist zeitlich begrenzt.",
+      "D": "Es dient ausschließlich zur Gestaltung der Webseite.",
+      "E": "Es kann zur serverseitigen Prüfung übermittelt werden."
+    },
+    "correct": ["C", "E"]
+  },
+  {
+    "question": "Welche Aussage unterscheidet Token und Secret Key korrekt?",
+    "options": {
+      "A": "Token und Secret Key sind zwei Namen für denselben Wert.",
+      "B": "Ein Secret Key wird für jede Interaktion neu vom Nutzer erzeugt.",
+      "C": "Ein Token ist ein temporärer Nachweis, ein Secret Key ein geheimer Schlüssel.",
+      "D": "Ein Token ist dauerhaft gültig, ein Secret Key nur kurzfristig.",
+      "E": "Ein Secret Key ist grundsätzlich für die öffentliche Anzeige bestimmt."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Warum reicht eine sicherheitsrelevante Prüfung ausschließlich im Browser nicht aus?",
+    "options": {
+      "A": "Clientseitiger Code kann vom Nutzer untersucht werden.",
+      "B": "Browser können grundsätzlich kein JavaScript ausführen.",
+      "C": "Clientseitiger Code kann manipuliert werden.",
+      "D": "Ein Angreifer kann Anfragen auch direkt an ein Backend senden.",
+      "E": "Ein Browser kann grundsätzlich keine Server kontaktieren."
+    },
+    "correct": ["A", "C", "D"]
+  },
+  {
+    "question": "Was bedeutet clientseitige Verarbeitung?",
+    "options": {
+      "A": "Die Verarbeitung findet ausschließlich in einer Datenbank statt.",
+      "B": "Die Verarbeitung findet auf dem Endgerät beziehungsweise im Browser statt.",
+      "C": "Die Verarbeitung erfolgt grundsätzlich nur bei Google.",
+      "D": "Die Verarbeitung findet ausschließlich auf einem Backendserver statt.",
+      "E": "Die Verarbeitung erfolgt ausschließlich über Firebase Hosting."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Was bedeutet serverseitige Verarbeitung?",
+    "options": {
+      "A": "Die Verarbeitung erfolgt ausschließlich im Browser.",
+      "B": "Die Verarbeitung besteht ausschließlich aus HTML und CSS.",
+      "C": "Die Verarbeitung erfolgt nur bei deaktiviertem JavaScript.",
+      "D": "Die Verarbeitung findet ausschließlich im Arbeitsspeicher des Clients statt.",
+      "E": "Die Verarbeitung findet auf einem Server beziehungsweise Backend statt."
+    },
+    "correct": "E"
+  },
+  {
+    "question": "Warum sollte ein Secret Key nicht in öffentlich ausgeliefertem JavaScript stehen?",
+    "options": {
+      "A": "Frontend-Code kann vom Nutzer eingesehen werden.",
+      "B": "JavaScript darf grundsätzlich keine Zeichenketten enthalten.",
+      "C": "Browser löschen alle geheimen Schlüssel automatisch.",
+      "D": "Ein geheimer Wert könnte aus dem ausgelieferten Code ausgelesen werden.",
+      "E": "JavaScript funktioniert ausschließlich auf Servern."
+    },
+    "correct": ["A", "D"]
+  },
+  {
+    "question": "Welche Aussage beschreibt einen Site Key korrekt?",
+    "options": {
+      "A": "Er ist ein geheimes Passwort des Administrators.",
+      "B": "Er darf ausschließlich in einer Datenbank gespeichert werden.",
+      "C": "Er ist identisch mit einem reCAPTCHA-Token.",
+      "D": "Er ist ein öffentlicher Schlüssel für die clientseitige Verwendung.",
+      "E": "Er ersetzt automatisch die Benutzeranmeldung."
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Welche Aussagen über einen Site Key sind korrekt?",
+    "options": {
+      "A": "Er kann clientseitig verwendet werden.",
+      "B": "Er ist grundsätzlich nicht als geheimer Wert gedacht.",
+      "C": "Er kann die Website beziehungsweise Konfiguration identifizieren.",
+      "D": "Ein kopierter Site Key ist nicht automatisch ein kompromittierter Secret Key.",
+      "E": "Seine Sicherheit beruht ausschließlich darauf, dass niemand ihn sehen kann."
+    },
+    "correct": ["A", "B", "C", "D"]
+  },
+  {
+    "question": "Was gilt für einen Secret Key?",
+    "options": {
+      "A": "Er muss vor öffentlichem Zugriff geschützt werden.",
+      "B": "Er ist grundsätzlich für die Anzeige im Browser vorgesehen.",
+      "C": "Er ist dasselbe wie ein Site Key.",
+      "D": "Er darf bedenkenlos im HTML-Quellcode stehen.",
+      "E": "Er ist ein öffentliches Kennzeichen für eine Webseite."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Ist ein kopierter Site Key automatisch gleichbedeutend mit einem gehackten reCAPTCHA?",
+    "options": {
+      "A": "Ja, weil jeder Site Key streng geheim bleiben muss.",
+      "B": "Ja, weil Site Key und Secret Key identisch sind.",
+      "C": "Nein, weil der Site Key grundsätzlich für die clientseitige Verwendung vorgesehen ist.",
+      "D": "Ja, sobald der Site Key im Browser angezeigt wird.",
+      "E": "Nein, weil Site Keys ausschließlich auf Servern gespeichert werden."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Welche Aussagen beschreiben Firebase App Check korrekt?",
+    "options": {
+      "A": "App Check ersetzt jede Form von Authentifizierung.",
+      "B": "App Check kann Firebase-Ressourcen schützen helfen.",
+      "C": "App Check hilft bei der Unterscheidung legitimer App-Instanzen von missbräuchlichen Anfragen.",
+      "D": "App Check ist lediglich ein anderer Name für Firebase Hosting.",
+      "E": "App Check ist ein Schutzmechanismus innerhalb von Firebase."
+    },
+    "correct": ["B", "C", "E"]
+  },
+  {
+    "question": "Welche Aussagen über Firebase App Check und reCAPTCHA sind korrekt?",
+    "options": {
+      "A": "Firebase App Check und reCAPTCHA sind vollständig identisch.",
+      "B": "App Check ist ein Firebase-Schutzmechanismus.",
+      "C": "reCAPTCHA kann bei Webanwendungen als Prüfmechanismus für App Check dienen.",
+      "D": "App Check ist ausschließlich ein Hostingdienst.",
+      "E": "reCAPTCHA ist ausschließlich eine Firebase-Datenbank."
+    },
+    "correct": ["B", "C"]
+  },
+  {
+    "question": "Ist Firebase App Check dasselbe wie reCAPTCHA?",
+    "options": {
+      "A": "Nein, App Check ist ein Firebase-Schutzmechanismus und reCAPTCHA kann als Prüfmechanismus dienen.",
+      "B": "Ja, beide Begriffe bezeichnen exakt denselben Firebase-Dienst.",
+      "C": "Ja, sofern die Anwendung im Browser ausgeführt wird.",
+      "D": "Nein, weil reCAPTCHA ausschließlich eine Datenbank ist.",
+      "E": "Ja, sobald Firebase Hosting verwendet wird."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Kann ein Bot reCAPTCHA grundsätzlich überwinden?",
+    "options": {
+      "A": "Nein, reCAPTCHA bietet absoluten Schutz vor Bots.",
+      "B": "Nein, sofern ausschließlich reCAPTCHA v3 verwendet wird.",
+      "C": "Nur wenn Firebase Hosting deaktiviert wurde.",
+      "D": "Ja, reCAPTCHA kann Missbrauch erschweren, aber nicht vollständig ausschließen.",
+      "E": "Nur wenn auf der Webseite kein JavaScript verwendet wird."
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Welche Aussagen beschreiben die Grenzen von reCAPTCHA korrekt?",
+    "options": {
+      "A": "Es ersetzt automatisch Authentifizierung und Autorisierung.",
+      "B": "Es soll insbesondere automatisierten Missbrauch erschweren.",
+      "C": "Es ersetzt keine vollständige Sicherheitsarchitektur.",
+      "D": "Es macht Eingabevalidierung grundsätzlich überflüssig.",
+      "E": "Es schützt eine Webseite garantiert vor jedem Angreifer."
+    },
+    "correct": ["B", "C"]
+  },
+  {
+    "question": "Welche Reihenfolge beschreibt den reCAPTCHA-Ablauf am treffendsten?",
+    "options": {
+      "A": "Backend → Nutzer → Datenbank → HTML → Token → Browser",
+      "B": "Token → Browser → Nutzer → Secret Key → Hosting → CSS",
+      "C": "Nutzer → Datenbank → CSS → Browser → Passwort → Server",
+      "D": "Browser → Hosting → Nutzer → Passwort → JavaScript → Score",
+      "E": "Nutzer → Browser → reCAPTCHA → Token → Backend → Prüfung → Entscheidung"
+    },
+    "correct": "E"
+  },
+  {
+    "question": "Was sollte eine Anwendung bei einem riskanten reCAPTCHA-v3-Ergebnis tun?",
+    "options": {
+      "A": "Grundsätzlich davon ausgehen, dass Google ein Bilderrätsel anzeigt.",
+      "B": "Abhängig von ihrer Logik über weitere Maßnahmen entscheiden.",
+      "C": "Den Score grundsätzlich ignorieren.",
+      "D": "Den Secret Key an den Browser übertragen.",
+      "E": "Automatisch das Benutzerkonto dauerhaft löschen."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Welche Maßnahmen kann eine Anwendung bei einem riskanten Ergebnis vorsehen?",
+    "options": {
+      "A": "Eine zusätzliche Verifikation verlangen.",
+      "B": "Den Secret Key öffentlich anzeigen.",
+      "C": "Die betreffende Aktion ablehnen.",
+      "D": "Den Score grundsätzlich durch einen Site Key ersetzen.",
+      "E": "Abhängig vom Ergebnis eine eigene Entscheidung treffen."
+    },
+    "correct": ["A", "C", "E"]
+  },
+  {
+    "question": "Welche Aussagen zu einem niedrigen reCAPTCHA-v3-Score sind korrekt?",
+    "options": {
+      "A": "Er bedeutet automatisch, dass ein Bilderrätsel angezeigt wird.",
+      "B": "Er beweist zweifelsfrei, dass ein Bot handelt.",
+      "C": "Er kann auf ein höheres Risiko hindeuten.",
+      "D": "Die Anwendung kann darauf mit eigenen Maßnahmen reagieren.",
+      "E": "Er macht eine serverseitige Entscheidung grundsätzlich überflüssig."
+    },
+    "correct": ["C", "D"]
+  },
+  {
+    "question": "Was ist JavaScript?",
+    "options": {
+      "A": "Ein ausschließlich serverseitiges Betriebssystem.",
+      "B": "Ein Datenbankmanagementsystem von Firebase.",
+      "C": "Ein Protokoll für verschlüsselte Netzwerke.",
+      "D": "Eine Programmiersprache, die unter anderem im Browser ausgeführt werden kann.",
+      "E": "Ein Hostingdienst für Webseiten."
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Welche Aufgaben können zu einem Backend gehören?",
+    "options": {
+      "A": "Serverseitige Logik bereitstellen.",
+      "B": "Datenzugriffe ermöglichen.",
+      "C": "Authentifizierungsfunktionen bereitstellen.",
+      "D": "Weitere serverseitige Dienste bereitstellen.",
+      "E": "Ausschließlich das visuelle CSS-Design definieren."
+    },
+    "correct": ["A", "B", "C", "D"]
+  },
+  {
+    "question": "Was ist ein Backend?",
+    "options": {
+      "A": "Ausschließlich die sichtbare Benutzeroberfläche einer Webseite.",
+      "B": "Ein anderer Begriff für eine CSS-Datei.",
+      "C": "Ein Browserplugin zur Anzeige von JavaScript.",
+      "D": "Ein ausschließlich grafischer Bestandteil einer Anwendung.",
+      "E": "Der Teil einer Anwendung, der serverseitige Logik und Dienste bereitstellen kann."
+    },
+    "correct": "E"
+  },
+  {
+    "question": "Welche Aussagen beschreiben Deployment korrekt?",
+    "options": {
+      "A": "Eine Anwendung kann in eine Zielumgebung gebracht werden.",
+      "B": "Eine neue Version kann zur Nutzung bereitgestellt werden.",
+      "C": "Deployment bedeutet ausschließlich das Löschen einer Datenbank.",
+      "D": "Deployment bezeichnet ausschließlich die lokale Codeeingabe.",
+      "E": "Deployment bedeutet immer die Veröffentlichung eines Secret Keys."
+    },
+    "correct": ["A", "B"]
+  },
+  {
+    "question": "Was ist Firebase Hosting?",
+    "options": {
+      "A": "Ein Verfahren zur Passwortverschlüsselung.",
+      "B": "Ein Ersatz für Firebase Authentication.",
+      "C": "Ein Hostingdienst für Webinhalte.",
+      "D": "Ein ausschließlich lokaler Entwicklungsserver.",
+      "E": "Eine Datenbank für reCAPTCHA-Scores."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Welche Aussagen über verschiedene Firebase-Dienste sind korrekt?",
+    "options": {
+      "A": "Firebase Hosting dient dem Hosting von Webinhalten.",
+      "B": "Firebase Authentication und Hosting erfüllen unterschiedliche Aufgaben.",
+      "C": "App Check ist mit Firebase Hosting vollständig identisch.",
+      "D": "App Check und Firestore erfüllen unterschiedliche Aufgaben.",
+      "E": "Hosting, Authentication und App Check sollten nicht gleichgesetzt werden."
+    },
+    "correct": ["A", "B", "D", "E"]
+  },
+  {
+    "question": "Warum ist die Aussage „reCAPTCHA schützt meine Website vor Hackern“ zu ungenau?",
+    "options": {
+      "A": "Weil reCAPTCHA ausschließlich zur optischen Gestaltung eingesetzt wird.",
+      "B": "Weil reCAPTCHA sämtliche Sicherheitsmaßnahmen vollständig ersetzt.",
+      "C": "Weil reCAPTCHA nur bei ausgeschaltetem JavaScript funktioniert.",
+      "D": "Weil reCAPTCHA ausschließlich Firebase Hosting schützt.",
+      "E": "Weil reCAPTCHA insbesondere automatisierten Missbrauch erschwert und keinen allgemeinen Angriffsschutz garantiert."
+    },
+    "correct": "E"
+  }
+]
